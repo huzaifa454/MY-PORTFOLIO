@@ -40,7 +40,7 @@ const Service = () => {
           to="Projects"
           smooth={true}
           duration={500}
-          className="cursor-pointer mt-8 hover:text-primary transition-colors duration-300 bg-black text-white font-secondary font-bold py-2 px-4 md:px-6 border-2 border-primary rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+          className="cursor-pointer mt-8 hover:text-primary bg-black text-white font-secondary font-bold py-2 px-4 md:px-6 border-2 border-primary rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
         >
           View Projects
         </Link>
