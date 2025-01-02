@@ -1,9 +1,8 @@
-
-import About from './About';
-import Home from './Home';
-import Projects from './Projects';
-import Service from './Service';
- 
+import About from "./About";
+import Home from "./Home";
+import Projects from "./Projects";
+import Service from "./Service";
+import Contact from "./Contact";
 const Hero = () => {
   return (
     <div>
@@ -18,6 +17,9 @@ const Hero = () => {
       </section>
       <section id="Projects">
         <Projects />
+      </section>
+      <section id="contact">
+      <Contact />
       </section>
     </div>
   );

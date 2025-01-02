@@ -9,6 +9,7 @@ export default {
       colors: {
         primary: '#00FFF5',
         secondary: '#0000FF', 
+        
       },
       fontFamily: {
         primary: ["Bebas Neue", "sans-serif"],

@@ -11,9 +11,9 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Hero/>} />
+          <Route path="/" element={<Hero />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </Router>
     </div>
   );
