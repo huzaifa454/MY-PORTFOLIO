@@ -1,4 +1,4 @@
-import car from "../assets/carproject.png";
+import car from "../assets/project4.png";
 import pro2 from "../assets/project2.png";
 import pro3 from "../assets/project3.png";
 

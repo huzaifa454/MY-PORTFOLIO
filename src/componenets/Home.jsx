@@ -1,30 +1,34 @@
 import picture from "../assets/pic2.jpeg";
-import bg from "../assets/bg.jpg";
+import bg from "../assets/image.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div className="flex flex-row min-h-screen">
+    <div className="flex flex-col md:flex-row relative min-h-screen">
       <div className="absolute inset-0 z-0">
-        <img src={bg} alt="" className="w-full min-h-screen object-cover" />
+        <img
+          src={bg}
+          alt=""
+          className="w-full min-h-screen object-cover bg-black-50 opacity-50"
+        />
       </div>
-      <div className="w-1/2 relative flex justify-center items-center">
-        <div className="w-96 h-96 bg-gray-900 overflow-hidden rounded-full border-4 border-primary shadow-lg transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl">
+      <div className="w-full md:w-1/2 relative flex justify-center items-center px-6 md:px-12 py-8 md:py-0">
+        <div className="w-72 h-72 md:w-96 md:h-96 bg-black overflow-hidden rounded-full border-4 border-primary shadow-lg transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl">
           <img
             src={picture}
             alt="image"
-            className="object-cover rounded-full py-6 "
+            className="object-cover rounded-full py-6"
           />
         </div>
       </div>
 
-      <div className="w-1/2 relative flex flex-col justify-start items-start pl-8 py-64 font-extrabold">
+      <div className="md:w-1/2 relative flex flex-col md:justify-center md:items-start items-center font-extrabold">
         <h1 className="text-3xl md:text-6xl">
           <span className="text-primary">Hi,</span>
         </h1>
-        <h2 className="text-white text-3xl md:text-4xl py-6">
+        <h2 className="text-white text-2xl md:text-4xl py-4">
           This is
           <span className="text-primary"> Huzaifa</span>
         </h2>
@@ -50,7 +54,7 @@ const Home = () => {
             />
           </a>
         </div>
-        <p className="text-white text-sm md:text-lg max-w-[600px] leading-relaxed py-4 font-semibold">
+        <p className="text-white font-semibold max-w-[600px] leading-relaxed md:text-start md:px-0 text-center px-6 py-4">
           I specialize in MERN stack web development, creating dynamic and
           interactive web applications using the powerful combination of
           MongoDB, Express.js, React.js, and Node.js. With a passion for clean
