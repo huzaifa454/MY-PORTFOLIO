@@ -4,25 +4,33 @@ import { Slide, Fade } from "react-awesome-reveal";
 
 const About = () => {
   return (
-    <div className="flex flex-wrap min-h-screen bg-black cursor-default">
-      <div className="w-full md:w-1/2 py-16 bg-black text-white flex justify-center items-center">
-        <Slide direction="left " duration={900}>
-          <h1 className="text-6xl md:text-8xl font-extrabold leading-snug text-start">
-            About <br />
-            <span className="text-[#00FFF5]">Me</span>
+    <div className="flex flex-wrap min-h-screen relative bg-black text-white">
+      <div className="absolute inset-0 z-0 bg-home bg-black opacity-50 transform scale-y-[-1]"></div>
+
+      <div className="flex-col md:w-1/2 py-6 px-12 md:px-6 flex justify-center md:text-start">
+        <Slide direction="left" duration={900}>
+          <h1 className="text-6xl md:text-8xl font-extrabold">
+            About <span className="text-[#00FFF5]">Me</span>
           </h1>
+          <p className="mt-4 text-lg leading-relaxed w-full">
+            We are expert MERN stack developers specializing in creating
+            high-performance, scalable web applications. Leveraging MongoDB,
+            Express.js, React.js, and Node.js, we deliver tailored, user-focused
+            solutions that blend functionality with exceptional design.
+            Committed to innovation and excellence, we transform ideas into
+            impactful digital experiences.
+          </p>
         </Slide>
       </div>
 
       <div className="w-full md:w-1/2 flex items-center py-16 px-6 md:px-16">
         <Fade>
-          <div className="flex flex-col items-center text-center border-4 border-[#00FFF5] rounded-lg p-8 bg-black text-white shadow-xl">
+          <div className="flex flex-col items-center text-center border-4 border-[#00FFF5] rounded-lg p-8 bg-black shadow-xl">
             <h1 className="text-2xl md:text-3xl font-semibold mb-4">
               I am a <span className="text-[#00FFF5]">MERN Stack</span>{" "}
               Developer
             </h1>
-
-            <div className="space-y-4 text-white">
+            <div className="space-y-4">
               <p className="flex items-center justify-center">
                 <FaCode className="text-[#00FFF5] mr-2" />
                 Speciality:{" "}
@@ -59,7 +67,6 @@ const About = () => {
                 </span>
               </p>
             </div>
-
             <Link
               to="service"
               smooth={true}

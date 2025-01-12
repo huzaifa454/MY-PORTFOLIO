@@ -1,6 +1,7 @@
 import { useState } from "react";
 import HamburgerMenu from "react-hamburger-menu";
 import { Link } from "react-scroll";
+import { FaHome, FaUserAlt, FaServicestack, FaProjectDiagram, FaEnvelope } from "react-icons/fa"; // Import icons
 
 const NavBar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -32,6 +33,7 @@ const NavBar = () => {
             duration={500}
             className="hover:text-primary transition-colors duration-300"
           >
+            <FaHome className="inline mr-2" />
             Home
           </Link>
           <Link
@@ -40,6 +42,7 @@ const NavBar = () => {
             duration={500}
             className="hover:text-primary transition-colors duration-300"
           >
+            <FaUserAlt className="inline mr-2" />
             About
           </Link>
           <Link
@@ -48,6 +51,7 @@ const NavBar = () => {
             duration={500}
             className="hover:text-primary transition-colors duration-300"
           >
+            <FaServicestack className="inline mr-2" />
             Services
           </Link>
           <Link
@@ -56,6 +60,7 @@ const NavBar = () => {
             duration={500}
             className="hover:text-primary transition-colors duration-300"
           >
+            <FaProjectDiagram className="inline mr-2" />
             Projects
           </Link>
           <Link
@@ -64,6 +69,7 @@ const NavBar = () => {
             duration={500}
             className="hover:text-primary transition-colors duration-300"
           >
+            <FaEnvelope className="inline mr-2" />
             Contact
           </Link>
         </div>
@@ -92,6 +98,7 @@ const NavBar = () => {
             className="py-2 hover:text-primary transition-colors duration-300"
             onClick={() => setOpen(false)}
           >
+            <FaHome className="inline mr-2" />
             Home
           </Link>
           <Link
@@ -101,6 +108,7 @@ const NavBar = () => {
             className="py-2 hover:text-primary transition-colors duration-300"
             onClick={() => setOpen(false)}
           >
+            <FaUserAlt className="inline mr-2" />
             About
           </Link>
           <Link
@@ -110,6 +118,7 @@ const NavBar = () => {
             className="py-2 hover:text-primary transition-colors duration-300"
             onClick={() => setOpen(false)}
           >
+            <FaServicestack className="inline mr-2" />
             Services
           </Link>
           <Link
@@ -119,6 +128,7 @@ const NavBar = () => {
             className="py-2 hover:text-primary transition-colors duration-300"
             onClick={() => setOpen(false)}
           >
+            <FaProjectDiagram className="inline mr-2" />
             Projects
           </Link>
           <Link
@@ -128,6 +138,7 @@ const NavBar = () => {
             className="py-2 hover:text-primary transition-colors duration-300"
             onClick={() => setOpen(false)}
           >
+            <FaEnvelope className="inline mr-2" />
             Contact
           </Link>
         </div>

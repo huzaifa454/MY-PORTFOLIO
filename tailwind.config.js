@@ -8,15 +8,17 @@ export default {
     extend: {
       colors: {
         primary: '#00FFF5',
-        secondary: '#0000FF', 
-        
+        secondary: '#0000FF',
+      },
+      backgroundImage: {
+        'home': "url('./src/assets/image.png')",
       },
       fontFamily: {
         primary: ["Bebas Neue", "sans-serif"],
         secondary: ["Open Sans", "sans-serif"],
       },
       boxShadow: {
-        'custom': '0 0 20px #00FFF5', 
+        'custom': '0 0 20px #00FFF5',
       },
     },
   },

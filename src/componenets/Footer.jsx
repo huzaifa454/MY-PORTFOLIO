@@ -31,14 +31,13 @@ const Footer = () => {
           >
             Services
           </ScrollLink>
-
           <ScrollLink
-            to="contact"
+            to="projects"
             smooth={true}
             duration={500}
-            className="text-sm hover:text-primary transition-colors cursor-pointer"
+            className="hover:text-primary transition-colors cursor-pointer"
           >
-            Contact Us
+            projects
           </ScrollLink>
         </div>
 
@@ -64,11 +63,10 @@ const Footer = () => {
             />
           </a>
         </div>
-
       </div>
-        <div className="text-center mt-4 md:mt-0">
-          <p className="text-sm">© 2024 Company Name. All rights reserved.</p>
-        </div>
+      <div className="text-center mt-4 md:mt-0">
+        <p className="text-sm">© 2024 Company Name. All rights reserved.</p>
+      </div>
     </footer>
   );
 };
