@@ -55,7 +55,7 @@ const NavBar = () => {
             Services
           </Link>
           <Link
-            to="Projects"
+            to="projects"
             smooth={true}
             duration={500}
             className="hover:text-primary transition-colors duration-300"
@@ -122,7 +122,7 @@ const NavBar = () => {
             Services
           </Link>
           <Link
-            to="Projects"
+            to="projects"
             smooth={true}
             duration={500}
             className="py-2 hover:text-primary transition-colors duration-300"

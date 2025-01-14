@@ -4,16 +4,14 @@ import { Slide, Fade } from "react-awesome-reveal";
 
 const About = () => {
   return (
-    <div className="flex flex-wrap min-h-screen relative bg-black text-white">
-      <div className="absolute inset-0 z-0 bg-home bg-black opacity-50 transform scale-y-[-1]"></div>
-
+    <div className="flex flex-wrap min-h-screen relative text-white">
       <div className="flex-col md:w-1/2 py-6 px-12 md:px-6 flex justify-center md:text-start">
         <Slide direction="left" duration={900}>
           <h1 className="text-6xl md:text-8xl font-extrabold">
             About <span className="text-[#00FFF5]">Me</span>
           </h1>
           <p className="mt-4 text-lg leading-relaxed w-full">
-            We are expert MERN stack developers specializing in creating
+            Im Expert MERN stack developers specializing in creating
             high-performance, scalable web applications. Leveraging MongoDB,
             Express.js, React.js, and Node.js, we deliver tailored, user-focused
             solutions that blend functionality with exceptional design.

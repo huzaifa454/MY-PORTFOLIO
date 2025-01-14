@@ -1,5 +1,4 @@
 import picture from "../assets/pic2.jpeg";
-import bg from "../assets/image.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-scroll";
@@ -13,13 +12,6 @@ const Home = () => {
       transition={{ duration: 2 }}
     >
       <div className="flex flex-col md:flex-row relative min-h-screen">
-        <div className="absolute inset-0 z-0">
-          <img
-            src={bg}
-            alt=""
-            className="w-full min-h-screen object-cover bg-black-50 opacity-50"
-          />
-        </div>
         <div className="w-full md:w-1/2 relative flex justify-center items-center px-6 md:px-12 py-8 md:py-0">
           <div className="w-72 h-72 md:w-96 md:h-96 bg-black overflow-hidden rounded-full border-4 border-primary shadow-lg transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl">
             <img

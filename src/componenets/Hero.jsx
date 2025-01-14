@@ -5,7 +5,7 @@ import Service from "./Service";
 import Contact from "./Contact";
 const Hero = () => {
   return (
-    <div>
+    <div className="bg-home bg-cover bg-center bg-fixed min-h-screen">
       <section id="home">
         <Home />
       </section>
@@ -15,11 +15,11 @@ const Hero = () => {
       <section id="service">
         <Service />
       </section>
-      <section id="Projects">
+      <section id="projects">
         <Projects />
       </section>
       <section id="contact">
-      <Contact />
+        <Contact />
       </section>
     </div>
   );

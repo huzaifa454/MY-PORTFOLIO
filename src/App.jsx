@@ -1,7 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import Navbar from "./componenets/NavBar";
-
 import "./App.css";
 import Hero from "./componenets/Hero";
 import Footer from "./componenets/Footer";

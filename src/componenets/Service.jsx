@@ -2,11 +2,11 @@ import { Link } from "react-scroll";
 
 const Service = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-[99vh] text-center md:pl-20 space-y-1">
-      <div className="text-white text-[30px] font-primary">
-        <h1 className="mt-16"> <span className="text-primary">My</span> </h1>
+    <div className="flex flex-col items-center justify-center min-h-screen text-center md:pl-20 space-y-1">
+      <div className="text-white text-3xl font-primary">
+        <h1 className=""> <span className="text-primary">My</span> </h1>
       </div>
-      <div className="text-white text-[35px] mt-8 font-primary">
+      <div className="text-white text-4xl mt-8 font-primary">
         Services
       </div>
 
