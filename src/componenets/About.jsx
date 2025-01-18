@@ -4,7 +4,7 @@ import { Slide, Fade } from "react-awesome-reveal";
 
 const About = () => {
   return (
-    <div className="flex flex-wrap min-h-screen relative text-white">
+    <div className="flex flex-wrap min-h-screen relative text-white py-16">
       <div className="flex-col md:w-1/2 py-6 px-12 md:px-6 flex justify-center md:text-start">
         <Slide direction="left" duration={900}>
           <h1 className="text-6xl md:text-8xl font-extrabold">

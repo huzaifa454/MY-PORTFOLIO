@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const Service = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-center space-y-1 cursor-default">
+    <div className="flex flex-col items-center justify-center min-h-screen text-center space-y-1 cursor-default py-32">
       <div className="text-white text-3xl font-primary">
         <h1 className=""> <span className="text-primary">My</span> </h1>
       </div>
@@ -37,7 +37,7 @@ const Service = () => {
 
       <div className="flex space-x-4 mt-12">
         <Link
-          to="Projects"
+          to="projects"
           smooth={true}
           duration={500}
           className="cursor-pointer mt-8 hover:text-primary bg-black text-white font-secondary font-bold py-2 px-4 md:px-6 border-2 border-primary rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"

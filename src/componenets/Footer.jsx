@@ -4,7 +4,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-8 ">
+    <footer className="bg-black text-white py-8 ">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4">
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
           <ScrollLink

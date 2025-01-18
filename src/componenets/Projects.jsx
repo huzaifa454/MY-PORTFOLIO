@@ -8,13 +8,13 @@ const Projects = () => {
   const projectlinks = [ 
     { url: "https://github.com/yourusername/project2", isLive: false },
     { url: "https://github.com/yourusername/project3", isLive: false },
-    { url: "https://github.com/huzaifa454/LampApp.git", isLive: false },
+    { url: "https://lamp-app-ten.vercel.app/", isLive: false },
     { url: "https://github.com/yourusername/project5", isLive: false },
     { url: "https://ductscareflorida.com", isLive: true },
   ];
   const projects = [car, pro2, pro3, pro4, pro5];
   return (
-    <div className="flex flex-col min-h-screen text-white font-primary py-16">
+    <div className="flex flex-col min-h-screen text-white font-primary pt-32">
       <div className="text-center">
         <h1 className="text-3xl text-primary">My</h1>
         <h1 className="text-4xl">Projects</h1>

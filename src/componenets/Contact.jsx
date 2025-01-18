@@ -1,36 +1,38 @@
 import React from "react";
-import picture from "../assets/pic2.jpeg";
+import pic from "../assets/image2.png";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="text-white min-h-screen flex flex-col justify-center items-center py-16">
-      <h1 className="text-center text-white text-3xl font-primary mb-8">
-        Get in Touch
-      </h1>
-
-      <div className="flex justify-between items-center w-full max-w-screen-md">
-        <p className="flex items-center">
-          <FaPhoneAlt className="text-[#00FFF5] mr-2 text-3xl" />
-          Phone:{" "}
-          <span className="text-[#00FFF5] font-semibold ml-1">03252208246</span>
-        </p>
-        <div className="flex flex-col items-center">
-          <div className="w-72 h-72 md:w-96 md:h-96 bg-black overflow-hidden rounded-full border-4 border-primary shadow-lg transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl mb-8">
-            <img
-              src={picture}
-              alt="image"
-              className="object-cover rounded-full py-6"
-            />
-          </div>
+    <div
+      id="contact"
+      className="min-h-screen flex flex-col justify-center items-center text-white cursor-default px-6"
+    >
+      <h1 className="text-4xl font-primary text-center">Get in Touch</h1>
+      <p className="text-center text-lg mt-4 max-w-2xl">
+        We are here to answer your questions and provide the support you need.
+        Reach out to us using any of the options below!
+      </p>
+      <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-5xl mt-12 space-y-8 md:space-y-0">
+        <div className="flex flex-col items-center w-full md:w-1/3 text-center">
+          <FaPhoneAlt className="text-primary text-4xl mb-4" />
+          <h2 className="text-xl font-bold">Phone</h2>
+          <p className="text-lg ">032-5220-8246</p>
+          <p className="text-sm text-primary">Mon-Fri, 9am - 6pm</p>
         </div>
-        <p className="flex items-center">
-          <FaEnvelope className="text-[#00FFF5] mr-2 text-3xl" />
-          Email:{" "}
-          <span className="text-[#00FFF5] font-semibold ml-1">
-            huzaifaaamir454@gmail.com
-          </span>
-        </p>
+        <div className="w-full md:w-1/3 flex justify-center">
+          <img
+            src={pic}
+            alt="Contact"
+            className="w-48 h-48 rounded-full border-4 border-primary shadow-lg hover:scale-105 transition-transform"
+          />
+        </div>
+        <div className="flex flex-col items-center w-full md:w-1/3 text-center">
+          <FaEnvelope className="text-primary text-4xl mb-4" />
+          <h2 className="text-xl font-bold">Email</h2>
+          <p className="text-lg">zhdevelopers0@gmail.com</p>
+          <p className="text-sm text-primary">We respond within 24 hours</p>
+        </div>
       </div>
     </div>
   );
