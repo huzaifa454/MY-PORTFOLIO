@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="min-h-screen flex flex-col justify-center items-center text-white cursor-default px-6"
+      className="min-h-screen flex flex-col justify-center items-center text-white cursor-default px-6 py-6"
     >
       <h1 className="text-4xl font-primary text-center">Get in Touch</h1>
       <p className="text-center text-lg mt-4 max-w-2xl">
