@@ -1,21 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "../src/componenets/NavBar";
+import Navbar from "./componenets/NavBar";
 import "./App.css";
-import bgImage from '../src/assets/image.png'; 
-import Hero from "../src/componenets/Hero";
-import Footer from "../src/componenets/Footer";
-
+import Hero from "./componenets/Hero";
+import Footer from "./componenets/Footer";
 function App() {
   return (
-    <div
-      className="bg-black"
-      style={{
-        backgroundImage: `url(${bgImage})`, 
-        backgroundSize: 'cover',  
-        backgroundPosition: 'center',  
-        backgroundRepeat: 'no-repeat'  
-      }}
-    >
+    <div className="bg-black">
       <Router>
         <Navbar />
         <Routes>
