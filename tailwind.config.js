@@ -11,7 +11,7 @@ export default {
         secondary: '#0000FF',
       },
       backgroundImage: {
-        'home': "url('./src/assets/image.png')",
+        'home': "url('/src/assets/image.png')",
       },
       fontFamily: {
         primary: ["Bebas Neue", "sans-serif"],

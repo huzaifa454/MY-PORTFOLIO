@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const Service = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-center space-y-1 cursor-default py-32">
+    <div className="flex flex-col items-center justify-center min-h-screen text-center space-y-1 cursor-default py-6">
       <div className="text-white text-3xl font-primary">
         <h1 className=""> <span className="text-primary">My</span> </h1>
       </div>

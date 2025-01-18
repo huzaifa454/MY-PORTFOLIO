@@ -5,7 +5,7 @@ import pro4 from "../assets/pro4.png";
 import pro5 from "../assets/pro5.png";
 
 const Projects = () => {
-  const projectlinks = [ 
+  const projectlinks = [
     { url: "https://github.com/yourusername/project2", isLive: false },
     { url: "https://github.com/yourusername/project3", isLive: false },
     { url: "https://lamp-app-ten.vercel.app/", isLive: false },
@@ -14,7 +14,7 @@ const Projects = () => {
   ];
   const projects = [car, pro2, pro3, pro4, pro5];
   return (
-    <div className="flex flex-col min-h-screen text-white font-primary pt-32">
+    <div className="flex flex-col min-h-screen text-white font-primary pt-12">
       <div className="text-center">
         <h1 className="text-3xl text-primary">My</h1>
         <h1 className="text-4xl">Projects</h1>
